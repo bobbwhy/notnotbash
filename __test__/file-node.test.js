@@ -1,13 +1,22 @@
-import * as bunyan from 'bunyan';
-const log = bunyan.createLogger( { name: 'FileNode: Test' });
+
+// import * as bunyan from 'bunyan';
+// const log = bunyan.createLogger( { name: 'FileNode: Test' });
 
 describe(`Testing of the FileNode service`,
   () => {
 
+    let something = 'true';
+
+    beforeAll( () => {
+    })
+
+    beforeEach( () => {
+    })
+
     test(`nothing to see here`,
       () => {
         // toBe does a shallow comparison.
-        expect( 1 ).toBe( 1 );
+        expect( 1 ).toBe( 2 );
       }
     );
 
@@ -29,7 +38,7 @@ describe(`Testing of the FileNode service`,
           }
         };
         // toEqual does a deep comparison.
-        expect( deep ).toEqual( div );
+        expect( deep ).toEqual( dive );
       }
     );
 
