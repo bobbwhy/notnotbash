@@ -1,5 +1,5 @@
-import * as bunyan from 'bunyan';
-const log = bunyan.createLogger( { name: 'FileNode: Test' });
+// import * as bunyan from 'bunyan';
+// const log = bunyan.createLogger( { name: 'FileNode: Test' });
 
 describe(`Testing of the FileNode service`,
   () => {
@@ -29,7 +29,7 @@ describe(`Testing of the FileNode service`,
           }
         };
         // toEqual does a deep comparison.
-        expect( deep ).toEqual( div );
+        expect( deep ).toEqual( dive );
       }
     );
 
